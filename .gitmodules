@@ -1,0 +1,18 @@
+[submodule "custom_nodes/comfy_controlnet_preprocessors"]
+	path = custom_nodes/comfy_controlnet_preprocessors
+	url = https://github.com/Fannovel16/comfy_controlnet_preprocessors.git
+[submodule "custom_nodes/ComfyUI-Manager"]
+	path = custom_nodes/ComfyUI-Manager
+	url = https://github.com/ltdrdata/ComfyUI-Manager.git
+[submodule "custom_nodes/ComfyUI_UltimateSDUpscale"]
+	path = custom_nodes/ComfyUI_UltimateSDUpscale
+	url = https://github.com/ssitu/ComfyUI_UltimateSDUpscale
+[submodule "custom_nodes/ComfyUI-Custom-Scripts"]
+	path = custom_nodes/ComfyUI-Custom-Scripts
+	url = https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git
+[submodule "custom_nodes/wyrde-comfyui-workflows"]
+	path = custom_nodes/wyrde-comfyui-workflows
+	url = git@github.com:wyrde/wyrde-comfyui-workflows.git
+[submodule "custom_nodes/was-node-suite-comfyui"]
+	path = custom_nodes/was-node-suite-comfyui
+	url = git@github.com:WASasquatch/was-node-suite-comfyui.git
