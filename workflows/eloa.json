@@ -1,6 +1,6 @@
 {
   "last_node_id": 68,
-  "last_link_id": 172,
+  "last_link_id": 176,
   "nodes": [
     {
       "id": 7,
@@ -68,7 +68,7 @@
         "1": 98
       },
       "flags": {},
-      "order": 23,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -122,7 +122,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 20,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -166,59 +166,6 @@
       ]
     },
     {
-      "id": 11,
-      "type": "CheckpointLoaderSimple",
-      "pos": [
-        2792.8043564278864,
-        -451.7799569812485
-      ],
-      "size": {
-        "0": 336,
-        "1": 98
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 0,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            44
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            11,
-            13
-          ],
-          "shape": 3,
-          "slot_index": 1
-        },
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            37
-          ],
-          "shape": 3,
-          "slot_index": 2
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CheckpointLoaderSimple"
-      },
-      "widgets_values": [
-        "sd_xl_refiner_0.9.safetensors"
-      ]
-    },
-    {
       "id": 13,
       "type": "CLIPTextEncode",
       "pos": [
@@ -232,7 +179,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 17,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -285,7 +232,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 24,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -328,7 +275,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 19,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -370,56 +317,6 @@
       ]
     },
     {
-      "id": 4,
-      "type": "CheckpointLoaderSimple",
-      "pos": [
-        2316.027720591185,
-        829.4038278043724
-      ],
-      "size": {
-        "0": 397,
-        "1": 98
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 1,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            27
-          ],
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            3,
-            5
-          ],
-          "slot_index": 1
-        },
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            133
-          ],
-          "slot_index": 2
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CheckpointLoaderSimple"
-      },
-      "widgets_values": [
-        "sd_xl_base_0.9.safetensors"
-      ]
-    },
-    {
       "id": 6,
       "type": "CLIPTextEncode",
       "pos": [
@@ -433,7 +330,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 18,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -470,7 +367,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "World's Most Beautiful Women full body photograph, Victoria Justice,  long shoot photo, sexy, attractive, hot, captivating beauty, graceful elegance, intricate details, high-resolution, stunning photography, timeless beauty, cyberpunk,  inspiration, iconic, fitness model, victoria secret , lace black costume, insane level of details , sharp , 4k , high resolution, graffiti art, inspired by Brad Kunkle, russ mills, andrey gordeev, high detail raw photo masterpiece, best quality, detailed, j scott campbell, artgerm, loish, sexy demon woman, full body, loong shoot,  detailed face, flawless face, perfect eyes, highly detailed,sharp focus, high resolution, award - winning photo,  ornamental tribal mural background"
+        "World's Most Beautiful Women full body photograph, Margot Robbie,  long shoot photo, sexy, attractive, hot, captivating beauty, graceful elegance, intricate details, high-resolution, stunning photography, timeless beauty, cyberpunk,  inspiration, iconic, fitness model, victoria secret , lace black costume, insane level of details , sharp , 4k , high resolution, graffiti art, inspired by Brad Kunkle, russ mills, andrey gordeev, high detail raw photo masterpiece, best quality, detailed, j scott campbell, artgerm, loish, sexy demon woman, full body, loong shoot,  detailed face, flawless face, perfect eyes, highly detailed,sharp focus, high resolution, award - winning photo,  ornamental tribal mural background"
       ]
     },
     {
@@ -487,7 +384,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 15,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -525,7 +422,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "World's Most Beautiful Women portrait, sexy, attractive, hot, captivating beauty, graceful elegance, intricate details, high-resolution, stunning photography, timeless beauty, cyberpunk,  inspiration, iconic, fitness model, victoria secret , lace black costume, insane level of details , sharp , 4k , high resolution, graffiti art, inspired by Brad Kunkle, russ mills, andrey gordeev, high detail raw photo masterpiece, best quality, detailed, j scott campbell, artgerm, loish, sexy demon woman, full body, loong shoot,  detailed face, flawless face, perfect eyes, highly detailed, 4 k, hdr, smooth, sharp focus, high resolution, award - winning photo,  ornamental tribal mural background"
+        "World's Most Beautiful Women full body photograph, Margot Robbie,  long shoot photo, sexy, attractive, hot, captivating beauty, graceful elegance, intricate details, high-resolution, stunning photography, timeless beauty, cyberpunk,  inspiration, iconic, fitness model, victoria secret , lace black costume, insane level of details , sharp , 4k , high resolution, graffiti art, inspired by Brad Kunkle, russ mills, andrey gordeev, high detail raw photo masterpiece, best quality, detailed, j scott campbell, artgerm, loish, sexy demon woman, full body, loong shoot,  detailed face, flawless face, perfect eyes, highly detailed,sharp focus, high resolution, award - winning photo,  ornamental tribal mural background"
       ]
     },
     {
@@ -540,7 +437,7 @@
         "1": 350.63995361328125
       },
       "flags": {},
-      "order": 2,
+      "order": 0,
       "mode": 0,
       "outputs": [
         {
@@ -564,7 +461,7 @@
       "title": "Positive Prompt",
       "properties": {},
       "widgets_values": [
-        "World's Most Beautiful Women portrait, sexy, attractive, hot, captivating beauty, graceful elegance, intricate details, high-resolution, stunning photography, timeless beauty, cyberpunk,  inspiration, iconic, fitness model, victoria secret , lace black costume, insane level of details , sharp , 4k , high resolution, graffiti art, inspired by Brad Kunkle, russ mills, andrey gordeev, high detail raw photo masterpiece, best quality, detailed, j scott campbell, artgerm, loish, sexy demon woman, full body, loong shoot,  detailed face, flawless face, perfect eyes, highly detailed, 4 k, hdr, smooth, sharp focus, high resolution, award - winning photo,  ornamental tribal mural background"
+        "World's Most Beautiful Women full body photograph, Margot Robbie,  long shoot photo, sexy, attractive, hot, captivating beauty, graceful elegance, intricate details, high-resolution, stunning photography, timeless beauty, cyberpunk,  inspiration, iconic, fitness model, victoria secret , lace black costume, insane level of details , sharp , 4k , high resolution, graffiti art, inspired by Brad Kunkle, russ mills, andrey gordeev, high detail raw photo masterpiece, best quality, detailed, j scott campbell, artgerm, loish, sexy demon woman, full body, loong shoot,  detailed face, flawless face, perfect eyes, highly detailed,sharp focus, high resolution, award - winning photo,  ornamental tribal mural background"
       ],
       "color": "#232",
       "bgcolor": "#353",
@@ -582,7 +479,7 @@
         "1": 388.68084716796875
       },
       "flags": {},
-      "order": 3,
+      "order": 1,
       "mode": 0,
       "outputs": [
         {
@@ -624,7 +521,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 4,
+      "order": 2,
       "mode": 0,
       "outputs": [
         {
@@ -657,7 +554,7 @@
         "1": 1041.5103759765625
       },
       "flags": {},
-      "order": 32,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -762,7 +659,7 @@
         "1": 317.8398742675781
       },
       "flags": {},
-      "order": 5,
+      "order": 3,
       "mode": 0,
       "outputs": [
         {
@@ -806,7 +703,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 6,
+      "order": 4,
       "mode": 0,
       "outputs": [
         {
@@ -838,7 +735,7 @@
         "1": 313.1805725097656
       },
       "flags": {},
-      "order": 7,
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
@@ -880,7 +777,7 @@
         "1": 894.8285522460938
       },
       "flags": {},
-      "order": 29,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -907,7 +804,7 @@
         "1": 348.5836181640625
       },
       "flags": {},
-      "order": 8,
+      "order": 6,
       "mode": 0,
       "outputs": [
         {
@@ -931,7 +828,7 @@
       "title": "Positive Prompt",
       "properties": {},
       "widgets_values": [
-        "World's Most Beautiful Women full body photograph, Victoria Justice,  long shoot photo, sexy, attractive, hot, captivating beauty, graceful elegance, intricate details, high-resolution, stunning photography, timeless beauty, cyberpunk,  inspiration, iconic, fitness model, victoria secret , lace black costume, insane level of details , sharp , 4k , high resolution, graffiti art, inspired by Brad Kunkle, russ mills, andrey gordeev, high detail raw photo masterpiece, best quality, detailed, j scott campbell, artgerm, loish, sexy demon woman, full body, loong shoot,  detailed face, flawless face, perfect eyes, highly detailed,sharp focus, high resolution, award - winning photo,  ornamental tribal mural background"
+        "World's Most Beautiful Women full body photograph, Margot Robbie,  long shoot photo, sexy, attractive, hot, captivating beauty, graceful elegance, intricate details, high-resolution, stunning photography, timeless beauty, cyberpunk,  inspiration, iconic, fitness model, victoria secret , lace black costume, insane level of details , sharp , 4k , high resolution, graffiti art, inspired by Brad Kunkle, russ mills, andrey gordeev, high detail raw photo masterpiece, best quality, detailed, j scott campbell, artgerm, loish, sexy demon woman, full body, loong shoot,  detailed face, flawless face, perfect eyes, highly detailed,sharp focus, high resolution, award - winning photo,  ornamental tribal mural background"
       ],
       "color": "#232",
       "bgcolor": "#353",
@@ -949,7 +846,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 25,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
@@ -992,7 +889,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 9,
+      "order": 7,
       "mode": 0,
       "outputs": [
         {
@@ -1034,41 +931,6 @@
       ]
     },
     {
-      "id": 21,
-      "type": "EmptyLatentImage",
-      "pos": [
-        2308.830466713994,
-        1370.0043050594486
-      ],
-      "size": {
-        "0": 295.7807922363281,
-        "1": 106
-      },
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            38
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Image Size\n",
-      "properties": {
-        "Node name for S&R": "EmptyLatentImage"
-      },
-      "widgets_values": [
-        1920,
-        1080,
-        1
-      ]
-    },
-    {
       "id": 45,
       "type": "PrimitiveNode",
       "pos": [
@@ -1080,7 +942,7 @@
         "1": 378.28155517578125
       },
       "flags": {},
-      "order": 11,
+      "order": 8,
       "mode": 0,
       "outputs": [
         {
@@ -1160,7 +1022,7 @@
         "1": 1390.18310546875
       },
       "flags": {},
-      "order": 30,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -1175,6 +1037,413 @@
       ]
     },
     {
+      "id": 61,
+      "type": "Reroute",
+      "pos": [
+        3991.9418672102474,
+        -2340.159560097812
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 114
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            172
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 67,
+      "type": "PrimitiveNode",
+      "pos": [
+        1244,
+        565
+      ],
+      "size": [
+        305.9502807617189,
+        82
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            163,
+            164,
+            165,
+            166
+          ],
+          "slot_index": 0,
+          "widget": {
+            "name": "seed",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 18446744073709552000
+              }
+            ]
+          }
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        993788659056578,
+        "fixed"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        2316,
+        829
+      ],
+      "size": [
+        420.85028076171875,
+        98
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 10,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            27
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            3,
+            5
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            133
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "AI_Lastes/copaxTimelessxlSDXL1_v6.safetensors"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "KSampler",
+      "pos": [
+        3036,
+        1027
+      ],
+      "size": [
+        539.7691362487803,
+        640.7173669921881
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 27
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 24
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 25
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 38
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 163,
+          "widget": {
+            "name": "seed",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 18446744073709552000
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            134,
+            139
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        993788659056578,
+        "fixed",
+        38,
+        7.5,
+        "dpmpp_3m_sde_gpu",
+        "exponential",
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        2793,
+        -452
+      ],
+      "size": {
+        "0": 336,
+        "1": 98
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 11,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            44
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            11,
+            13
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            37
+          ],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "AI_Lastes/sd_xl_refiner_1.0.safetensors"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "Reroute",
+      "pos": [
+        3988,
+        -834
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 176,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            121,
+            125
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 64,
+      "type": "Reroute",
+      "pos": [
+        3395,
+        667
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 175,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LATENT",
+          "links": [
+            137
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 21,
+      "type": "EmptyLatentImage",
+      "pos": [
+        2309,
+        1371
+      ],
+      "size": {
+        "0": 295.7807922363281,
+        "1": 106
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            38
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Image Size\n",
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        1728,
+        1024,
+        1
+      ]
+    },
+    {
+      "id": 65,
+      "type": "Reroute",
+      "pos": [
+        3261.610379250933,
+        732.8715532955684
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 139,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LATENT",
+          "links": [
+            175
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
       "id": 20,
       "type": "KSampler",
       "pos": [
@@ -1183,10 +1452,10 @@
       ],
       "size": [
         300.7364501953125,
-        262
+        446
       ],
       "flags": {},
-      "order": 21,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -1244,49 +1513,14 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        993788659056576,
+        993788659056578,
         "fixed",
-        32,
+        28,
         6.5,
-        "euler_ancestral",
-        "karras",
+        "dpmpp_2m_sde_gpu",
+        "exponential",
         0.30000000000000004
       ]
-    },
-    {
-      "id": 65,
-      "type": "Reroute",
-      "pos": [
-        3261.610379250933,
-        732.8715532955684
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 26,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 139,
-          "slot_index": 0
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "LATENT",
-          "links": [],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
     },
     {
       "id": 62,
@@ -1300,7 +1534,7 @@
         26
       ],
       "flags": {},
-      "order": 28,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -1314,43 +1548,8 @@
           "name": "",
           "type": "IMAGE",
           "links": [
-            123
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 61,
-      "type": "Reroute",
-      "pos": [
-        3991.9418672102474,
-        -2340.159560097812
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 31,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 114
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            172
+            123,
+            176
           ],
           "slot_index": 0
         }
@@ -1364,15 +1563,15 @@
       "id": 53,
       "type": "UltimateSDUpscale",
       "pos": [
-        3733.012790916302,
-        -2223.835450722812
+        3733,
+        -2224
       ],
       "size": [
         315,
-        566
+        774
       ],
       "flags": {},
-      "order": 27,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -1438,12 +1637,12 @@
         "Node name for S&R": "UltimateSDUpscale"
       },
       "widgets_values": [
-        1.6,
-        993788659056576,
+        1.5,
+        993788659056578,
         "fixed",
         30,
         6,
-        "dpmpp_sde_gpu",
+        "dpmpp_3m_sde_gpu",
         "karras",
         0.3999999999999999,
         "Linear",
@@ -1455,7 +1654,8 @@
         0.2799999999999998,
         32,
         8,
-        16
+        16,
+        "enable"
       ]
     },
     {
@@ -1467,7 +1667,7 @@
       ],
       "size": [
         315,
-        566
+        773.9999389648438
       ],
       "flags": {},
       "order": 35,
@@ -1535,12 +1735,12 @@
         "Node name for S&R": "UltimateSDUpscale"
       },
       "widgets_values": [
-        1.2999999999999998,
-        993788659056576,
+        1.5,
+        993788659056578,
         "fixed",
         28,
         6,
-        "dpmpp_sde_gpu",
+        "dpmpp_3m_sde_gpu",
         "karras",
         0.2799999999999998,
         "Linear",
@@ -1552,202 +1752,8 @@
         0.34999999999999987,
         64,
         8,
-        16
-      ]
-    },
-    {
-      "id": 63,
-      "type": "Reroute",
-      "pos": [
-        3988,
-        -834
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "slot_index": 0
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "*",
-          "links": [
-            121,
-            125
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 64,
-      "type": "Reroute",
-      "pos": [
-        3394.7195590410893,
-        666.7424057097646
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "slot_index": 0
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "*",
-          "links": [
-            137
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 17,
-      "type": "KSampler",
-      "pos": [
-        3036,
-        1027
-      ],
-      "size": [
-        315,
-        262
-      ],
-      "flags": {},
-      "order": 22,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 27
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 24
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 25
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 38
-        },
-        {
-          "name": "seed",
-          "type": "INT",
-          "link": 163,
-          "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            134,
-            139
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "KSampler"
-      },
-      "widgets_values": [
-        993788659056576,
-        "fixed",
-        38,
-        7.5,
-        "dpmpp_2m_sde_gpu",
-        "karras",
-        1
-      ]
-    },
-    {
-      "id": 67,
-      "type": "PrimitiveNode",
-      "pos": [
-        1244,
-        565
-      ],
-      "size": [
-        321.9789784381703,
-        82
-      ],
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            163,
-            164,
-            165,
-            166
-          ],
-          "slot_index": 0,
-          "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
-          }
-        }
-      ],
-      "properties": {},
-      "widgets_values": [
-        993788659056576,
-        "fixed"
+        16,
+        "enable"
       ]
     }
   ],
@@ -2183,6 +2189,22 @@
       66,
       0,
       "*"
+    ],
+    [
+      175,
+      65,
+      0,
+      64,
+      0,
+      "*"
+    ],
+    [
+      176,
+      62,
+      0,
+      63,
+      0,
+      "*"
     ]
   ],
   "groups": [
@@ -2195,6 +2217,7 @@
         1000
       ],
       "color": "#b58b2a",
+      "font_size": 24,
       "locked": false
     },
     {
@@ -2206,6 +2229,7 @@
         1235
       ],
       "color": "#a1309b",
+      "font_size": 24,
       "locked": false
     },
     {
@@ -2217,6 +2241,7 @@
         1521
       ],
       "color": "#3f789e",
+      "font_size": 24,
       "locked": false
     },
     {
@@ -2228,6 +2253,7 @@
         2638
       ],
       "color": "#b06634",
+      "font_size": 24,
       "locked": false
     },
     {
@@ -2239,6 +2265,7 @@
         2171
       ],
       "color": "#A88",
+      "font_size": 24,
       "locked": false
     },
     {
@@ -2250,6 +2277,7 @@
         2440
       ],
       "color": "#8AA",
+      "font_size": 24,
       "locked": false
     },
     {
@@ -2261,6 +2289,7 @@
         3925
       ],
       "color": "#444",
+      "font_size": 24,
       "locked": false
     }
   ],
